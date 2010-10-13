@@ -24,6 +24,11 @@
         			</div>
       				<?php endif; ?>			
 					<div id="content">
+						<?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
+            			<?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
+            			<?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
+            			<?php if ($show_messages && $messages): print $messages; endif; ?>
+            			<?php print $help; ?>
 						<?php print $content; ?>
 						<div class="clear-block"></div>
 					</div>		
