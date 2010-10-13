@@ -9,8 +9,8 @@ a {
 }
 
 #center-container {
-	width: 1000px;
-	height: 784px;
+	width: 1200px;
+	height: 1318px;
 	background-image: url('images/background-center.png');
 	background-repeat: no-repeat;
 /*	background-attachment: fixed; */
@@ -20,7 +20,7 @@ a {
 }
 
 #logo {
-    width: 863px;
+    width: 816px;
     margin: 0 auto;
     
 }
@@ -30,17 +30,17 @@ a {
 	display: block;
 	background-image: url("logo.png");
 	background-repeat: no-repeat;
-	height: 214px;
-	width: 863px;
+	height: 203px;
+	width: 816px;
 	text-indent: -9999px;
 }
 
 /* Navigation menu links */
 .primary-links {
 	display: block; 
-	width: 863px; 
+	width: 816px; 
 	height: 100px;
-	margin: -115px auto !important;
+	margin: -100px auto !important;
 	position: relative;
 	clear: both;
 }
@@ -59,7 +59,7 @@ a {
 	clear: right;
 }
 	
-.menu-443 {
+.menu-433 {
 	clear: left;
 	margin-left: 130px;
 }
@@ -68,8 +68,8 @@ a {
 /* About */
 .menu-420 a {
 	display: inline-block; 
-	height: 52px;
-	width: 131px;
+	height: 46px;
+	width: 116px;
 	background-image: url('images/menu-about.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;	
@@ -78,18 +78,18 @@ a {
 /* Media */
 .menu-285 a {
 	display: inline-block; 
-	height: 57px;
-	width: 127px;
+	height: 47px;
+	width: 107px;
 	background-image: url('images/menu-media.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;		
 }
 
 /* Discography */
-.menu-443 a {
+.menu-433 a {
 	display: inline-block; 
-	height: 57px;
-	width: 253px;
+	height: 51px;
+	width: 230px;
 	background-image: url('images/menu-discography.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;		
@@ -98,8 +98,8 @@ a {
 /* Lyrics */
 .menu-284 a {
 	display: inline-block;
-	height: 53px;
-	width: 159px;
+	height: 45px;
+	width: 134px;
 	background-image: url('images/menu-lyrics.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;			
@@ -108,8 +108,8 @@ a {
 /* Contact */
 .menu-436 a {
 	display: inline-block;
-	height: 64px;
-	width: 160px;
+	height: 43px;
+	width: 133px;
 	background-image: url('images/menu-contact.png');
 	background-repeat: no-repeat;
 	text-indent: -9999px;			
@@ -117,38 +117,38 @@ a {
 
 #content-border-top {
 	position: relative;
-	width: 704px;
+	width: 853px;
 	/*
 	height: 438px;
 	*/
 	padding-top: 1px;
-	margin: 0 auto;
+	margin: 100px auto;
 	background-image: url('images/background-content-top.png');
 	background-repeat: no-repeat;
 	clear: both;
 }
 
 #content-border-middle {
-	width: 704px;
-	margin: 55px auto 0px auto;
+	width: 853px;
+	margin: 75px auto 0px auto;
 	background-image: url('images/background-content-middle.png');
 	background-repeat: repeat-y;
 }
 
 #content-border-bottom {
 	margin: 0 auto;
-	width: 704px;
-	height: 56px;
+	width: 853px;
+	height: 76px;
 	background-image: url('images/background-content-bottom.png');
 	background-repeat: no-repeat;		
 }
 
 #content {
-	padding: 0 1em 0 1em;;
+	padding: 0 30px;
 }
 
 #sidebar-right {
-	width: 200px;
+	width: 300px;
 	float: right;
 	
 	margin-right: 10px;
