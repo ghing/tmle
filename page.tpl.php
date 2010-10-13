@@ -29,6 +29,9 @@
             			<?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
             			<?php if ($show_messages && $messages): print $messages; endif; ?>
             			<?php print $help; ?>
+                                <?php if ($title && !$is_front): ?>
+                                <h2><?php print $title; ?></h2>
+                                <?php endif; ?>
 						<?php print $content; ?>
 						<div class="clear-block"></div>
 					</div>		
