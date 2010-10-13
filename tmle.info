@@ -1,0 +1,15 @@
+; See http://drupal.org/node/171205
+
+name = The Max Levine Ensemble
+
+core = 6.x
+
+engine = phptemplate
+
+stylesheets[all][] = style.css
+
+;regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
