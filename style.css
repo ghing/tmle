@@ -68,8 +68,8 @@ a {
 /* About */
 .menu-420 a {
 	display: inline-block; 
-	height: 46px;
-	width: 116px;
+	height: 73px;
+	width: 190px;
         background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;	
 }
@@ -77,18 +77,18 @@ a {
 /* Media */
 .menu-285 a {
 	display: inline-block; 
-	height: 47px;
-	width: 107px;
-        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
+	height: 83px;
+	width: 185px;
+        background: transparent url(images/menu_sprites.png) -190px 0 no-repeat;
 	text-indent: -9999px;		
 }
 
 /* Discography */
 .menu-443 a {
 	display: inline-block; 
-	height: 51px;
+	height: 83px;
 	width: 230px;
-        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
+        background: transparent url(images/menu_sprites.png) -190px 0 no-repeat;
 	text-indent: -9999px;		
 }
 
