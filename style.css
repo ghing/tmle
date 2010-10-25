@@ -86,27 +86,27 @@ a {
 /* Discography */
 .menu-443 a {
 	display: inline-block; 
-	height: 83px;
-	width: 230px;
-        background: transparent url(images/menu_sprites.png) -190px 0 no-repeat;
+	height: 84px;
+	width: 360px;
+        background: transparent url(images/menu_sprites.png) 0 -82px no-repeat;
 	text-indent: -9999px;		
 }
 
 /* Lyrics */
 .menu-284 a {
 	display: inline-block;
-	height: 45px;
-	width: 134px;
-        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
+	height: 82px;
+	width: 230px;
+        background: transparent url(images/menu_sprites.png) -375px 0 no-repeat;
 	text-indent: -9999px;			
 }
 
 /* Contact */
 .menu-436 a {
 	display: inline-block;
-	height: 43px;
-	width: 133px;
-        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
+	height: 83px;
+	width: 227px;
+        background: transparent url(images/menu_sprites.png) -366px -81px no-repeat;
 	text-indent: -9999px;			
 }
 
