@@ -70,8 +70,7 @@ a {
 	display: inline-block; 
 	height: 46px;
 	width: 116px;
-	background-image: url('images/menu-about.png');
-	background-repeat: no-repeat;
+        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;	
 }
 
@@ -80,8 +79,7 @@ a {
 	display: inline-block; 
 	height: 47px;
 	width: 107px;
-	background-image: url('images/menu-media.png');
-	background-repeat: no-repeat;
+        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;		
 }
 
@@ -90,8 +88,7 @@ a {
 	display: inline-block; 
 	height: 51px;
 	width: 230px;
-	background-image: url('images/menu-discography.png');
-	background-repeat: no-repeat;
+        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;		
 }
 
@@ -100,8 +97,7 @@ a {
 	display: inline-block;
 	height: 45px;
 	width: 134px;
-	background-image: url('images/menu-lyrics.png');
-	background-repeat: no-repeat;
+        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;			
 }
 
@@ -110,8 +106,7 @@ a {
 	display: inline-block;
 	height: 43px;
 	width: 133px;
-	background-image: url('images/menu-contact.png');
-	background-repeat: no-repeat;
+        background: transparent url(images/menu_sprites.png) 0 0 no-repeat;
 	text-indent: -9999px;			
 }
 
