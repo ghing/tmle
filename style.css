@@ -8,6 +8,12 @@ a {
 	color: black;
 }
 
+.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 #center-container {
 	width: 1200px;
 	height: 1451px;

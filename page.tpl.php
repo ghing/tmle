@@ -23,7 +23,7 @@
       <div id="page-border-top"></div>
 
       <div id="page-border-middle">	
-        <div id="page">
+        <div id="page" class="container-12">
           <?php if ($is_front && $right): ?>
           <div id="sidebar-right" class="sidebar">
           <?php print $right ?>
