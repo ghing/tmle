@@ -8,6 +8,10 @@ a {
 	color: #5BE029;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
 #center-container {
         position: relative;
 
@@ -188,5 +192,24 @@ a {
   font-style: italic;
 }
 
+.node .links li {
+  background-color: #ffffff;
+  padding: 0 0.2em 0.2em 0.2em;
+  border: solid 1px #473831;
+}
 
+.node .links li:hover {
+  background-color: #473831;
+}
 
+.node .links li:hover a {
+  color: white;
+}
+
+.node .links li a {
+  color: #473831;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
