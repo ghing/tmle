@@ -20,35 +20,36 @@
       </div>
       <!-- /#header -->
 
-      <div id="page-border-top"></div>
+      <div id="content-border-top"></div>
 
-      <div id="page-border-middle">	
-        <div id="page" class="container-12">
-          <?php if ($is_front && $right): ?>
-          <div id="sidebar-right" class="sidebar">
-          <?php print $right ?>
-          </div>
-          <?php endif; ?>			
+      <div id="content-border-middle">	
+        <div id="content-container" class="container-12">
 
-          <div id="content">
+          <div id="content" class="grid-12">
             <?php print $content; ?>
             <div class="clear-block"></div>
           </div>		
           <!-- /#content -->
 
+          <?php if ($is_front && $right): ?>
+          <div id="sidebar-right" class="sidebar grid-4 push-8">
+          <?php print $right ?>
+          </div>
+          <?php endif; ?>			
+
         </div>
-        <!-- /#page -->
+        <!-- /#content -->
 
       </div>
-      <!-- /#page-border-middle -->
+      <!-- /#content-border-middle -->
 
-      <div id="page-border-bottom"></div>			
+      <div id="content-border-bottom"></div>			
                               
                               
-      </div>
-      <!-- /#center-container -->
+    </div>
+    <!-- /#center-container -->
 
-      <?php print $closure ?>	
+    <?php print $closure ?>	
       
   </body>
 </html>

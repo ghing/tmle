@@ -1,28 +1,27 @@
 body {
 	background-image: url('images/background.png');
 	font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
 }
 
 a {
-	font-weight: bold;
-	color: black;
+	color: #5BE029;
 }
 
-.container-12 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+a:hover {
+  font-weight: bold;
 }
 
 #center-container {
+        position: relative;
+
+	margin: 0 auto;
 	width: 1200px;
 	height: 1451px;
+	padding-top: 10px;
+
 	background-image: url('images/background-center.png');
 	background-repeat: no-repeat;
-/*	background-attachment: fixed; */
-	margin: 0 auto;
-	position: relative;
-	padding-top: 10px;
 }
 
 #logo {
@@ -44,7 +43,7 @@ a {
 /* Navigation menu links */
 .primary-links {
 	display: block; 
-	width: 960px; 
+	width: 960px;
 	height: 100px;
 	margin: -150px auto !important;
 	position: relative;
@@ -116,52 +115,64 @@ a {
 	text-indent: -9999px;			
 }
 
-#page-border-top {
+#content-border-top {
 	position: relative;
 	width: 985px;
-        height: 80px;
-	padding-top: 1px;
-	margin: 100px auto 0 auto;
+        height: 79px;
+	/*padding-top: 1px;*/
+        margin-left: auto;
+        margin-right: auto;
 	background-image: url('images/background-content-top.png');
 	background-repeat: no-repeat;
 	clear: both;
 }
 
-#page-border-middle {
+#content-border-middle {
+        position: relative;
+
+        margin-left: auto;
+        margin-right: auto;
 	width: 985px;
-	margin: -21px auto 0px auto;
+
 	background-image: url('images/background-content-middle.png');
 	background-repeat: repeat-y;
 }
 
-#page-border-bottom {
-	margin: 0 auto;
+#content-border-bottom {
+        margin-left: auto;
+        margin-right: auto;
 	width: 985px;
 	height: 76px;
 	background-image: url('images/background-content-bottom.png');
 	background-repeat: no-repeat;		
 }
 
-#page {
-  margin: 0 auto 0 auto;
-  width: 960px;
+#content-container {
 }
 
 #content {
-	padding: 0px 10px;
+  float: none; 
+
+  display: inline-block;
+
+  margin-top: -40px;
 }
 
+
 #sidebar-right {
-	width: 300px;
-	float: right;
-	
-	margin-right: 10px;
-	padding: 0 1em 0 1em;
+  position: absolute;
+  top: -40px;
+}
+
+.node {
+  margin-bottom: 20px;
 }
 
 .node h2, .block h2 {
 	text-transform: uppercase;
 	color: #ad3531;
+        font-size: 1.8em;
+        margin: 10px auto 0px auto;
 }
 
 .node h2 a {
@@ -173,5 +184,32 @@ a {
 	text-decoration: underline;
 }
 
+.node .content {
+}
 
+.node .meta {
+  font-size: 0.8em;
+  font-style: italic;
+}
 
+.node .links li {
+  background-color: #ffffff;
+  padding: 0 0.2em 0.2em 0.2em;
+  border: solid 1px #473831;
+}
+
+.node .links li:hover {
+  background-color: #473831;
+}
+
+.node .links li:hover a {
+  color: white;
+}
+
+.node .links li a {
+  color: #473831;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
