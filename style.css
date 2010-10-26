@@ -160,10 +160,15 @@ a {
   top: -40px;
 }
 
+.node {
+  margin-bottom: 20px;
+}
+
 .node h2, .block h2 {
 	text-transform: uppercase;
 	color: #ad3531;
         font-size: 1.8em;
+        margin: 10px auto 0px auto;
 }
 
 .node h2 a {
@@ -173,6 +178,14 @@ a {
 
 .node h2 a:hover {
 	text-decoration: underline;
+}
+
+.node .content {
+}
+
+.node .meta {
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 
