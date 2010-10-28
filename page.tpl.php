@@ -26,6 +26,10 @@
         <div id="content-container" class="container-12">
 
           <div id="content" class="grid-12">
+            <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
+            <?php if (!empty($messages)): print $messages; endif; ?>
+            <?php if (!empty($help)): print $help; endif; ?>
+
             <?php print $content; ?>
             <div class="clear-block"></div>
           </div>		
