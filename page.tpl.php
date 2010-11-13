@@ -25,7 +25,7 @@
       <div id="content-border-middle">	
         <div id="content-container" class="container-12">
 
-          <div id="content" class="grid-12">
+          <div id="content" class="<?php $is_front ? print "grid-8" : print "grid-12" ?>">
             <?php if (!empty($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
             <?php if (!empty($messages)): print $messages; endif; ?>
             <?php if (!empty($help)): print $help; endif; ?>
